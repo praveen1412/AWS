@@ -1,0 +1,17 @@
+Installation
+
+Download node.js for windwos 64 os
+open cmd prmpt
+node --version
+npm --version
+
+npm config set proxy http://kumarpe:Welcome1234@fm-eu-lon-proxy.fm.rbsgrp.net:8080
+npm config set https-proxy http://kumarpe:Welcome1234@fm-eu-lon-proxy.fm.rbsgrp.net:8080
+
+npm install -g protractor
+
+protractor --version
+5.4.4
+
+webdriver-manager update --proxy http://kumarpe:Welcome1234@fm-eu-lon-proxy.fm.rbsgrp.net:8080/
+webdriver-manager start --proxy http://kumarpe:Welcome1234@fm-eu-lon-proxy.fm.rbsgrp.net:8080/
